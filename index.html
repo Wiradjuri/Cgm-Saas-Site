@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FlexiCAD by CGM SaaS | Enterprise AI Solutions</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400&family=Roboto+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #955E9B; 
+            background: conic-gradient(from 45deg at 50% 50%, #A86589 26%, #8257AD 84%);
+            color: #FFFFFF; 
+            min-height: 100vh;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        .container { max-width: 1100px; margin: 0 auto; padding: 4rem 2rem; }
+        .brand-header { text-align: center; margin-bottom: 4rem; }
+        .brand-header span { color: #FAFAFA; font-size: 1.2rem; letter-spacing: 0.15rem; font-weight: 100; text-transform: uppercase; }
+        .brand-header h1 { font-family: 'Roboto Serif', serif; font-size: 4rem; margin-top: 1rem; }
+
+        .card { 
+            background: radial-gradient(75% 75% at 100% 100%, #3D394D 0%, #2D2B36 100%);
+            border-radius: 1.25rem; 
+            padding: 3rem; 
+            margin-bottom: 2rem; 
+            box-shadow: 0 1rem 3rem rgba(0,0,0,0.3);
+        }
+        .card h2 { font-family: 'Roboto Serif', serif; font-size: 1.5rem; margin-bottom: 1.5rem; text-align: center; font-style: italic; }
+        .card p { color: #85838F; font-size: 1rem; margin-bottom: 2rem; text-align: center; }
+
+        .btn-demo { 
+            display: flex; align-items: center; justify-content: center;
+            background: #7E55F2; color: white; padding: 1rem 2rem; border-radius: 0.75rem;
+            text-decoration: none; width: fit-content; margin: 0 auto; font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+        .btn-demo:hover { transform: scale(1.05); }
+
+        .price-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-size: 0.9rem; }
+        .price-table th, .price-table td { padding: 1rem; border: 1px solid #0AC476; text-align: center; }
+        .price-table th { background: rgba(10, 196, 118, 0.18); font-variant: small-caps; color: #FFFFFF; }
+        .price-table td { color: #85838F; }
+
+        .advantage-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 4rem; }
+        .advantage-item h3 { color: #FFFFFF; margin-bottom: 1rem; }
+
+        footer { margin-top: 6rem; padding-top: 3rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; font-size: 0.85rem; }
+        .legal-links { margin-bottom: 1.5rem; }
+        .legal-links a { color: #5C83EE; text-decoration: none; margin: 0 1rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header class="brand-header">
+            <span>CGM SaaS Solutions</span>
+            <h1>FlexiCAD Designer</h1>
+            <p style="margin-top:1rem; opacity: 0.8;">Industrial AI Frameworks for CGM Civil Engineering</p>
+        </header>
+
+        <section class="card">
+            <h2>Distributed Data Processing Engine</h2>
+            <p>A high-throughput, fault-tolerant engine for real-time data stream processing and ETL pipelines. Built for scalability, it handles terabytes of data with ease.</p>
+            <a href="#" class="btn-demo">Request A Demo ☁</a>
+        </section>
+
+        <section class="card">
+            <h2>Database Migration Tool</h2>
+            <p>A powerful utility to safely migrate data between different database systems. Automates schema conversion and data validation to save hours of manual work.</p>
+            <a href="#" class="btn-demo">Request A Demo ☁</a>
+        </section>
+
+        <section class="card">
+            <h2>AI-Powered Anomaly Detection System</h2>
+            <p>A self-learning system that uses advanced machine learning models to detect anomalies in real-time application data and user behavior.</p>
+            <a href="#" class="btn-demo">Request A Demo ☁</a>
+        </section>
+
+        <section class="card">
+            <h2 style="font-size: 2.5rem; font-style: normal;">Enterprise Pricing</h2>
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Subscription Tier</th>
+                        <th>Category</th>
+                        <th>Price (AUD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>Starter Subscription</strong></td><td>AI Products</td><td>$249.00 / </td></tr>
+                    <tr><td><strong>Pro Subscription</strong></td><td>Database Tools + AI Products</td><td>$749.00 / ea</td></tr>
+                    <tr><td><strong>Business Subscription</strong></td><td>Database Tools + AI Products</td><td>$1,850.00 / ea</td></tr>
+                    <tr><td><strong>Growth Subscription</strong></td><td>Database Tools + AI Products</td><td>$4,950.00 / ea</td></tr>
+                    <tr><td><strong>Enterprise Subscription</strong></td><td>Database Tools + AI Products</td><td>$9,500.00 / ea</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div class="advantage-grid">
+            <div class="advantage-item">
+                <h3>🛠 Enterprise Support</h3>
+                <p>Direct Engineering Access with guaranteed SLAs. 24/7 critical support and architectural consulting.</p>
+            </div>
+            <div class="advantage-item">
+                <h3>🛡 Proven Security</h3>
+                <p>Security by Design. Our components undergo rigorous penetration testing and adhere to OWASP Top 10.</p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="legal-links">
+                <a href="refund-policy.html">Refund Policy</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+            <p style="margin-top: 1.5rem; line-height: 1.8;">
+                &copy; 2026 <strong>CGM SaaS</strong>. All rights reserved.<br>
+                FlexiCAD is a digital product developed by <strong>Bradley Peter Murray</strong>.<br>
+                <strong>ABN: 35 955 094 046</strong> (GST Registered)<br>
+                Location: Miranda, NSW 2228, Australia.
+            </p>
+        </footer>
+    </div>
+
+</body>
+</html>
