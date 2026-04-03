@@ -1,8 +1,2 @@
-<<<<<<< HEAD
 Flask
 squareup
-=======
-flask
-flask-cors
-square-sdk
->>>>>>> 9aae294f04c788227d112e5f90ea00ec0b7b2ef9
