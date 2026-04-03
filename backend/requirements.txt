@@ -1,4 +1,6 @@
 fastapi
 uvicorn
 sqlalchemy
-sqlalchemy
+flask
+flask-cors
+square-sdk
