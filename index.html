@@ -48,8 +48,12 @@
         .advantage-item h3 { color: #FFFFFF; margin-bottom: 1rem; }
 
         footer { margin-top: 6rem; padding-top: 3rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; font-size: 0.85rem; }
-        .legal-links { margin-bottom: 1.5rem; }
-        .legal-links a { color: #5C83EE; text-decoration: none; margin: 0 1rem; }
+        .connect-section { margin-bottom: 1.5rem; }
+        .connect-section h3 { font-size: 1rem; letter-spacing: 0.05rem; margin-bottom: 0.75rem; text-transform: uppercase; }
+        .connect-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 0.9rem 1.2rem; margin-bottom: 1.25rem; }
+        .connect-links a, .legal-links a { color: #5C83EE; text-decoration: none; }
+        .connect-links a:hover, .legal-links a:hover { text-decoration: underline; }
+        .legal-links { margin-bottom: 1.5rem; display: flex; justify-content: center; flex-wrap: wrap; gap: 0.5rem 1rem; }
     </style>
 </head>
 <body>
@@ -164,6 +168,16 @@
         </div>
 
         <footer>
+            <section class="connect-section" aria-label="Online Presence">
+                <h3>Online Presence</h3>
+                <nav class="connect-links">
+                    <a href="https://www.flexicad.com.au/" target="_blank" rel="noopener noreferrer">Website</a>
+                    <a href="https://www.linkedin.com/company/flexicad/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/flexicad" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:contact@flexicad.com.au" target="_blank" rel="noopener noreferrer">Email Support</a>
+                </nav>
+            </section>
+
             <div class="legal-links">
                 <a href="refund-policy.html">Refund Policy</a>
                 <a href="privacy-policy.html">Privacy Policy</a>
