@@ -156,3 +156,25 @@ export default function HomePage() {
     </main>
   );
 }
+
+export function privacyPolicy() {
+  return (
+    <div style={{ padding: '2rem', fontFamily: 'Inter, Segoe UI, sans-serif', background: '#040712', color: '#f8fafc' }}>
+      <h1>Privacy Policy</h1>
+      <p>Effective Date: [Insert Date]</p>
+      <p>At FlexiCAD, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or use our services.</p>
+      <h2>Information We Collect</h2>
+      <p>We may collect personal information such as your name, email address, and payment details when you interact with our website or make a purchase. We also collect non-personal information such as browser type and IP address for analytics purposes.</p>
+      <h2>How We Use Your Information</h2>
+      <p>We use the information we collect to provide and improve our services, process transactions, communicate with you, and comply with legal obligations. We do not sell or rent your personal information to third parties.</p>
+      <h2>Data Security</h2>
+      <p>We implement appropriate security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure, so we cannot guarantee absolute security.</p>
+      <h2>Your Rights</h2>
+      <p>You have the right to access, correct, or delete your personal information. You can also opt-out of receiving marketing communications from us. To exercise these rights, please contact us at [Insert Contact Information].</p>
+      <h2>Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.</p>
+      <h2>Contact Us</h2>
+      <p>If you have any questions about this Privacy Policy, please contact us at [Insert Contact Information].</p>
+    </div>
+  );
+}
