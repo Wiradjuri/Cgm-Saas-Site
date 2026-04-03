@@ -6,7 +6,22 @@ from flask_cors import CORS
 from square.client import Client
 
 app = Flask(__name__)
-CORS(app)
+ALLOWED_ORIGINS = [os.getenv("FRONTEND_ORIGIN", "https://flexicad.com.au")]
+CORS(
+    app,
+    resources={
+        r"/api/checkout": {
+            "origins": ALLOWED_ORIGINS,
+            "methods": ["POST", "OPTIONS"],
+            "allow_headers": ["Content-Type"],
+        },
+        r"/api/health": {
+            "origins": ALLOWED_ORIGINS,
+            "methods": ["GET", "OPTIONS"],
+            "allow_headers": ["Content-Type"],
+        },
+    },
+)
 
 TIER_PRICING = {
     "starter": 24900,
