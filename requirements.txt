@@ -1,6 +1,3 @@
-fastapi
-uvicorn
-sqlalchemy
 flask
 flask-cors
 square-sdk
