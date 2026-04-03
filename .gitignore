@@ -1,1 +1,11 @@
 .env
+.vercel
+.env*.local
+.vercelignore
+node_modules
+dist
+build
+db
+logs
+*.log
+*.tsbuildinfo
